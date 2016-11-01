@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <!--
+   ITWeb Design Semester Projects
+   Author: Patrick Emery
+   Date: 10/31/16
+   Filename: Page1.htm
+   Page Contents: Current Projects
+   -->
+
+
+         <meta charset="UTF-8" />
+         <title>Pat Emery - Developer</title>
+         <script src="modernizr-1.5.js"></script>
+         <script src="formsubmit.js"></script>
+         <link href="mainstyle.css" rel="stylesheet" type="text/css" />
+         <link href="comments.css" rel="stylesheet" type="text/css" />
+
+      </head>
+
+
+      <body>
+         <header>
+            <img src="" alt="" />
+         </header>
+
+      <div id ="center">
+        <div id ="navbar">
+          <nav>
+            <a href="main.htm"><center>Home Page</center></a>
+            <a href="Page1.htm"><center>Arduino and IoT</center></a>
+            <a href="Page3.htm"><center>Previous Projects</center></a>
+            <a href="Page2.htm"><center>In Development</center></a>
+            <a href="Page4.htm"><center>Contact me</center></a>
+         <nav>
+       </div>
+       <div id="sidebar">
+         Stuff in here
+       </div>
+       <div id="scroll">
+         <div id="content">
+           <section>
+            <article>
+              <div id="entry">
+               <hgroup>
+                  <p id="title">First post</h1>
+                  <p id="title2">Date Here</h2>
+               </hgroup>
+
+               <h2>Post Your Comments</h2>
+
+               <form id="commentForm" action="www.sblogger.com/cgi-bin/subcomments" method="post">
+               <fieldset id="commentFS" name="commentFS">
+                  <label>Username:
+                     <input name="username" id="username" required="required"
+                            title="Supply your username" />
+                  </label>
+                  <label>Password:
+                     <input name="password" id="password" type="password" required="required"
+                            title="You must provide your password" />
+                   </label>
+                  <label>
+                  <textarea value="(500) Character Limit" name="commentBox" id="commentBox"
+                            maxlength="500"></textarea>
+                  </label><br>
+                  <input type="submit" value="Submit Comment" />
+                  <input type="reset" value="Reset">
+               </fieldset>
+               </form>
+
+               <div id="entry_photo"></div>
+             </div>
+            </article>
+          </section>
+        </div>
+      </div>
+         <aside>
+            <h1>Recent Posts</h1>
+         </aside>
+     <div id="bottom"><p>Copyright and stuff down here</p></div>
+
+   </div> <!-- End center div !-->
+
+      </body>
+
+   </html>
